@@ -665,6 +665,7 @@ def render_phase2() -> None:
 def main() -> None:
     ensure_state()
     st.title("Testtheorie-Kompetenztest")
+    st.caption("Konzept und Prototyp: Dr. Robin Segerer")
 
     with st.sidebar:
         st.markdown("## Menü")
@@ -717,3 +718,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+st.sidebar.markdown("---")
+st.sidebar.caption("© Dr. Robin Segerer")
+st.sidebar.caption("Prototyp · nicht empirisch kalibriert")
