@@ -1,0 +1,172 @@
+{
+  "phase2_cases": [
+    {
+      "case_id": "P2_CASE_001",
+      "title": "Lokale Abhängigkeit in Fallvignetten-Items",
+      "target_level": "expert",
+      "case_text": "Ein adaptiver Test zur psychologischen Testtheoriekompetenz wurde mit einem Rasch-Modell kalibriert. Die Itembank enthält kurze Definitionsitems und mehrere lange Fallvignetten. Die globale Modellprüfung wirkt akzeptabel. Bei genauerer Analyse zeigen sich jedoch systematische Residualkorrelationen zwischen den Fallvignettenitems. Gleichzeitig schneiden Personen mit hoher Lesekompetenz in diesen Items besser ab, auch wenn sie in externen psychometrischen Aufgaben nicht besser sind. Formulieren Sie die zentrale psychometrische Kritik und einen geeigneten Verbesserungsvorschlag.",
+      "rubric_dimensions": [
+        {
+          "dimension_id": "core_problem",
+          "label": "Erkennung des psychometrischen Kernproblems",
+          "score_anchors": {
+            "0": "Fachlich falsch, irrelevant oder Problem verfehlt.",
+            "1": "Erkennt vage, dass etwas nicht passt, benennt aber kein testtheoretisches Konzept.",
+            "2": "Benennt lokale Abhängigkeit, Formatfaktor oder Konstruktverengung korrekt, aber unvollständig begründet.",
+            "3": "Identifiziert Residualkorrelationen als Hinweis auf lokale Abhängigkeit bzw. Format-/Methodenfaktor und verknüpft dies mit Modellannahmen."
+          },
+          "few_shot_anchors": {
+            "0": "Die Aufgaben sind zu lang, die Studierenden werden müde.",
+            "1": "Der globale Fit stimmt zwar, aber die Aufgaben passen trotzdem nicht gut zusammen.",
+            "2": "Die langen Fallvignetten korrelieren in den Residuen. Das ist ein Zeichen, dass sie nicht ganz unabhängig sind.",
+            "3": "Die systematischen Residualkorrelationen zwischen Vignettenitems indizieren eine Verletzung lokaler stochastischer Unabhängigkeit; trotz globalem Fit liegt ein Format- oder Methodenfaktor vor."
+          }
+        },
+        {
+          "dimension_id": "test_score_interpretation",
+          "label": "Konsequenz für die Testwertinterpretation",
+          "score_anchors": {
+            "0": "Keine Konsequenz oder pauschaler Fehlschluss.",
+            "1": "Erkennt ungenaue oder problematische Testwerte, erklärt aber nicht warum.",
+            "2": "Erklärt, dass Fremdeinflüsse die Testwerte verzerren, ohne dies vollständig mit Validitätsargumenten zu verbinden.",
+            "3": "Verknüpft den Modellverstoß mit Construct-Irrelevant Variance und Bedrohung der Konstruktvalidität der θ-Interpretation."
+          },
+          "few_shot_anchors": {
+            "0": "Der Test ist Schrott.",
+            "1": "Man kann den Theta-Werten nicht mehr richtig vertrauen.",
+            "2": "Theta misst dann nicht nur Testtheorie, sondern auch den Umgang mit langen Texten.",
+            "3": "Die Interpretation von Theta wird durch construct-irrelevante Varianz wie Lesekompetenz kontaminiert; damit ist die intendierte Konstruktinterpretation gefährdet."
+          }
+        },
+        {
+          "dimension_id": "design_improvement",
+          "label": "Methodischer Verbesserungsvorschlag",
+          "score_anchors": {
+            "0": "Unwissenschaftlicher oder psychometrisch unsinniger Vorschlag.",
+            "1": "Triviale Änderung ohne psychometrische Strukturreform.",
+            "2": "Korrekte Maßnahme wie Itemausschluss, separates Modell oder Itembankrevision, aber wenig präzise.",
+            "3": "Fundiertes alternatives Design, z. B. Testlets, Bifaktor-/multidimensionales Modell oder strenge Content-Blueprints mit empirischer Neukalibrierung."
+          },
+          "few_shot_anchors": {
+            "0": "Man sollte den Studierenden die Lösungen geben.",
+            "1": "Man sollte die Texte einfach kürzer machen.",
+            "2": "Man sollte die korrelierenden Items entfernen oder ein anderes Modell verwenden.",
+            "3": "Man sollte Vignetteneffekte über Testlet- oder Bifaktormodelle modellieren, die Itembank blueprintgebunden überarbeiten und die Itemparameter danach empirisch neu kalibrieren."
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "P2_CASE_002",
+      "title": "Reliabilität maskiert Konstruktunterrepräsentation",
+      "target_level": "expert",
+      "case_text": "Ein neu entwickelter Kurztest soll allgemeine Testentwicklungskompetenz erfassen. Die finale Version enthält fast ausschließlich Items zu Cronbachs Alpha, Itemschwierigkeit und Trennschärfe. Die interne Konsistenz ist hoch, die adaptive θ-Schätzung stabil, und Expert:innen bestätigen die rechnerische Korrektheit der Items. In offenen Projektaufgaben zeigen dieselben Personen aber deutliche Schwächen bei Konstruktdefinition, Zielgruppenanalyse, Fairnessprüfung und Validitätsargumentation. Beurteilen Sie die Validität der intendierten Testwertinterpretation und schlagen Sie eine Designrevision vor.",
+      "rubric_dimensions": [
+        {
+          "dimension_id": "core_problem",
+          "label": "Erkennung von Konstruktunterrepräsentation",
+          "score_anchors": {
+            "0": "Problem verfehlt oder hohe Reliabilität als Validitätsbeweis interpretiert.",
+            "1": "Vage Kritik, dass der Test nicht alles abdeckt.",
+            "2": "Benennt Konstruktunterrepräsentation korrekt, aber ohne klare Konsequenz.",
+            "3": "Erklärt präzise, dass hohe Messpräzision in einem engen Ausschnitt die intendierte breite Konstruktinterpretation nicht absichert."
+          },
+          "few_shot_anchors": {
+            "0": "Der Test ist gut, weil Alpha hoch ist.",
+            "1": "Der Test ist vielleicht etwas zu einseitig.",
+            "2": "Der Test unterrepräsentiert Testentwicklung, weil wichtige Bereiche fehlen.",
+            "3": "Der Test misst präzise einen engen rechnerisch-psychometrischen Ausschnitt; die Interpretation als allgemeine Testentwicklungskompetenz ist durch Konstruktunterrepräsentation bedroht."
+          }
+        },
+        {
+          "dimension_id": "test_score_interpretation",
+          "label": "Abgrenzung Reliabilität, Validität und Inhaltsrepräsentation",
+          "score_anchors": {
+            "0": "Setzt Reliabilität mit Validität gleich.",
+            "1": "Sagt nur, dass Alpha nicht alles ist.",
+            "2": "Trennt Reliabilität und Validität, aber begründet die Interpretationsgrenze knapp.",
+            "3": "Erklärt, dass Reliabilität, Modellfit und θ-Stabilität Messpräzision, nicht aber Inhaltsbreite und Gültigkeit der Schlussfolgerung sichern."
+          },
+          "few_shot_anchors": {
+            "0": "Alpha zeigt, dass der Test valide ist.",
+            "1": "Alpha reicht nicht ganz.",
+            "2": "Reliabilität ersetzt Validität nicht, weil wichtige Inhalte fehlen.",
+            "3": "Alpha und stabile θ-Schätzung zeigen Präzision für den erfassten Itemraum; die Validität der breiten Schlussfolgerung erfordert aber Inhaltsabdeckung und externe performanznahe Evidenz."
+          }
+        },
+        {
+          "dimension_id": "design_improvement",
+          "label": "Designrevision",
+          "score_anchors": {
+            "0": "Keine oder unsinnige Revision.",
+            "1": "Nur mehr Items ohne Blueprint.",
+            "2": "Schlägt zusätzliche Inhaltsbereiche vor, aber ohne Struktur.",
+            "3": "Blueprintgebundene multidimensionale oder hierarchische Architektur mit performanznahen Aufgaben, Rubriken und Validierungsplan."
+          },
+          "few_shot_anchors": {
+            "0": "Einfach mehr Alpha-Items hinzufügen.",
+            "1": "Man sollte noch ein paar andere Fragen ergänzen.",
+            "2": "Items zu Konstruktdefinition und Fairness aufnehmen.",
+            "3": "Eine Blueprint-Matrix mit Facetten wie Konstruktdefinition, Itemkonstruktion, Reliabilität/Itemanalyse, Validitätsargument, Fairness und Testanwendung aufbauen und durch Fallaufgaben plus externe Kriterien validieren."
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "P2_CASE_003",
+      "title": "DIF, Impact und Fairness in einer interdisziplinären Zielgruppe",
+      "target_level": "reviewer_like",
+      "case_text": "Ein Test zur psychometrischen Methodenkompetenz wird bei Psychologiestudierenden und Bildungswissenschaftler:innen eingesetzt. Psychologiestudierende erzielen im Mittel höhere Werte. Eine DIF-Analyse zeigt, dass mehrere Items mit klinisch-diagnostischem Kontext bei gleicher Gesamtausprägung von Psychologiestudierenden häufiger richtig gelöst werden. Externe Kriterien zur allgemeinen psychometrischen Methodenkompetenz zeigen jedoch keine entsprechenden Unterschiede. Beurteilen Sie, was aus diesen Befunden folgt und was nicht folgt.",
+      "rubric_dimensions": [
+        {
+          "dimension_id": "core_problem",
+          "label": "Trennung von DIF, Impact und Testunfairness",
+          "score_anchors": {
+            "0": "Setzt Gruppenunterschied direkt mit Unfairness gleich oder ignoriert DIF.",
+            "1": "Erkennt ein Gruppenproblem, trennt Begriffe aber nicht.",
+            "2": "Benennt DIF und unterscheidet es grob von Gruppenunterschieden.",
+            "3": "Trennt präzise Impact, DIF und Fairness; erklärt, dass DIF ein Hinweis auf potenzielle Itembias-/Validitätsprobleme ist, aber nicht allein der vollständige Fairnessbeweis."
+          },
+          "few_shot_anchors": {
+            "0": "Der Test ist unfair, weil Psychologiestudierende besser sind.",
+            "1": "Irgendwas ist für die Gruppen unterschiedlich.",
+            "2": "Die klinischen Items zeigen DIF; das ist nicht dasselbe wie der Mittelwertunterschied.",
+            "3": "Der Mittelwertunterschied ist Impact; DIF liegt vor, wenn Items bei gleicher Fähigkeit gruppenspezifisch funktionieren. Das gefährdet die Fairness/Validität einzelner Items, beweist aber allein noch nicht die gesamte Testunfairness."
+          }
+        },
+        {
+          "dimension_id": "test_score_interpretation",
+          "label": "Konsequenz für intendierte Testwertinterpretation",
+          "score_anchors": {
+            "0": "Keine Konsequenz oder falscher Schluss.",
+            "1": "Sagt, dass man vorsichtig sein muss.",
+            "2": "Erklärt, dass domänenspezifisches Vorwissen die allgemeine Kompetenzinterpretation verzerren kann.",
+            "3": "Verknüpft DIF mit construct-irrelevanter Kontextvertrautheit und der Bedrohung der Interpretation als allgemeine psychometrische Methodenkompetenz."
+          },
+          "few_shot_anchors": {
+            "0": "Die Psychologen sind einfach besser.",
+            "1": "Man sollte die Ergebnisse vorsichtig interpretieren.",
+            "2": "Die klinischen Kontexte könnten Psychologiestudierende bevorzugen, obwohl es um allgemeine Methodenkompetenz geht.",
+            "3": "Die Items erfassen möglicherweise klinisch-kontextuelles Vorwissen statt allgemeiner psychometrischer Kompetenz; dadurch wird die intendierte Testwertinterpretation durch construct-irrelevante Varianz bedroht."
+          }
+        },
+        {
+          "dimension_id": "design_improvement",
+          "label": "Fairnessorientierte Revision",
+          "score_anchors": {
+            "0": "Unsinnige oder pauschale Lösung.",
+            "1": "Nur Gruppe separat normieren ohne Validitätsprüfung.",
+            "2": "Schlägt Itemrevision, Kontextbalancierung oder DIF-Prüfung vor.",
+            "3": "Entwirft eine faire Blueprint-Revision mit kontextneutralen oder balancierten Items, erneuter DIF-Analyse, Prüfung externer Kriterien und transparenter Interpretationsbegrenzung."
+          },
+          "few_shot_anchors": {
+            "0": "Psychologiestudierende sollten ausgeschlossen werden.",
+            "1": "Man macht einfach getrennte Normen.",
+            "2": "Man sollte die klinischen Items umformulieren und DIF erneut prüfen.",
+            "3": "Die Itembank sollte kontextbalanciert neu aufgebaut werden; klinische, pädagogische und neutrale Kontexte werden blueprintgebunden verteilt, DIF wird erneut geprüft und die Validität gegen externe Methodenkompetenzkriterien abgesichert."
+          }
+        }
+      ]
+    }
+  ]
+}

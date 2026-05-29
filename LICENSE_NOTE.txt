@@ -1,0 +1,2 @@
+Prototype for educational and research-development use.
+No diagnostic use without empirical validation.

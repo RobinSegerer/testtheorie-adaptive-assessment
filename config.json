@@ -1,0 +1,53 @@
+{
+  "phase_1": {
+    "routing_items": 10,
+    "min_adaptive_items": 12,
+    "stability_window": 8,
+    "theta_stability_range": 0.35,
+    "max_items": 45,
+    "theta_grid_min": -4.0,
+    "theta_grid_max": 6.0,
+    "theta_grid_step": 0.05,
+    "prior_mean": 0.0,
+    "prior_sd": 1.5
+  },
+  "gate": {
+    "phase_2_gate_theta": 3.0,
+    "phase_2_gate_se": 0.35,
+    "max_precision_items": 3,
+    "stay_in_phase1_after_gate_default": false
+  },
+  "phase_2": {
+    "min_cases": 2,
+    "default_cases": 3,
+    "max_cases": 4,
+    "scoring_scale": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "phase_2_is_not_irt_theta": true,
+    "openai_model": "gpt-4.1-mini",
+    "automatic_scoring_default": true
+  },
+  "item_generation": {
+    "enabled_available": true,
+    "enabled_default": false,
+    "ui_toggle": true,
+    "openai_model": "gpt-4.1-mini",
+    "bank_tolerance": 0.75,
+    "max_attempts_per_item": 3,
+    "max_consecutive_failures": 2,
+    "generated_items_are_experimental": true,
+    "fallback_rule": "If online generation is enabled but no API key is available, or generation fails after max_attempts_per_item, administer the closest unused bank item; in online_only mode, do not use JSON fallback items and stop Phase 1 safely if generation is unavailable.",
+    "generation_mode_default": "off",
+    "generation_modes": [
+      "off",
+      "gap_only",
+      "always_after_routing",
+      "online_only"
+    ],
+    "skip_fixed_routing_available": true
+  }
+}

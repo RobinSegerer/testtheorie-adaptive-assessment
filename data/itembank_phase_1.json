@@ -1,0 +1,1924 @@
+{
+  "itembank_phase_1": [
+    {
+      "item_id": "P1_GUE_001",
+      "dimension": "Testguetekriterien",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 2,
+        "topic": "Objektivität"
+      },
+      "b_value": -2.8,
+      "b_basis": "expert_estimate",
+      "b_confidence": "high",
+      "cognitive_process": "recall",
+      "item_type": "multiple_choice",
+      "stem": "Ein Test liefert unabhängig davon, welche geschulte Testleiterin ihn durchführt, bei gleicher Testperson dieselben Ergebnisse. Welches Gütekriterium ist primär angesprochen?",
+      "options": {
+        "A": "Validität",
+        "B": "Objektivität",
+        "C": "Normierung",
+        "D": "Nützlichkeit"
+      },
+      "correct_key": "B",
+      "rationale": "Die Unabhängigkeit der Testergebnisse von der testleitenden Person verweist auf Objektivität, insbesondere Durchführungsobjektivität.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_GUE_002",
+      "dimension": "Testguetekriterien",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 2,
+        "topic": "Reliabilität"
+      },
+      "b_value": -2.5,
+      "b_basis": "expert_estimate",
+      "b_confidence": "high",
+      "cognitive_process": "recall",
+      "item_type": "multiple_choice",
+      "stem": "Welches Gütekriterium beschreibt die Messgenauigkeit eines psychologischen Tests?",
+      "options": {
+        "A": "Reliabilität",
+        "B": "Validität",
+        "C": "Fairness",
+        "D": "Testökonomie"
+      },
+      "correct_key": "A",
+      "rationale": "Reliabilität bezeichnet die Genauigkeit bzw. Zuverlässigkeit, mit der ein Test ein Merkmal misst.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_GUE_003",
+      "dimension": "Testguetekriterien",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 2,
+        "topic": "Validität"
+      },
+      "b_value": -2.2,
+      "b_basis": "expert_estimate",
+      "b_confidence": "high",
+      "cognitive_process": "recall",
+      "item_type": "multiple_choice",
+      "stem": "Ein Test soll tatsächlich das Merkmal erfassen, das er zu messen vorgibt. Welches Gütekriterium ist damit gemeint?",
+      "options": {
+        "A": "Objektivität",
+        "B": "Reliabilität",
+        "C": "Validität",
+        "D": "Zumutbarkeit"
+      },
+      "correct_key": "C",
+      "rationale": "Validität betrifft die Angemessenheit der Interpretation und Verwendung von Testergebnissen bezogen auf das intendierte Merkmal.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_PLAN_004",
+      "dimension": "Testplanung_und_Testentwicklung",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 3,
+        "topic": "Testplanung"
+      },
+      "b_value": -1.9,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Was sollte bei der Entwicklung eines neuen psychologischen Tests typischerweise vor der Itemformulierung geklärt werden?",
+      "options": {
+        "A": "Die endgültige Normtabelle",
+        "B": "Die theoretische Definition des zu erfassenden Merkmals",
+        "C": "Die exakte Retest-Reliabilität",
+        "D": "Die empirische Itemschwierigkeit aller Items"
+      },
+      "correct_key": "B",
+      "rationale": "Vor der Itemformulierung muss das Zielkonstrukt theoretisch und operational möglichst klar bestimmt werden.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_ITEM_005",
+      "dimension": "Itemanalyse",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 4,
+        "topic": "Itemschwierigkeit"
+      },
+      "b_value": -1.6,
+      "b_basis": "expert_estimate",
+      "b_confidence": "high",
+      "cognitive_process": "interpretation",
+      "item_type": "multiple_choice",
+      "stem": "Ein dichotomes Leistungsitem hat eine Lösungshäufigkeit von p = .90. Wie ist dieses Item zu interpretieren?",
+      "options": {
+        "A": "Es ist eher leicht.",
+        "B": "Es ist eher schwer.",
+        "C": "Es hat maximale Varianz.",
+        "D": "Es ist automatisch hoch valide."
+      },
+      "correct_key": "A",
+      "rationale": "Bei dichotomen Leistungsitems bedeutet eine hohe Lösungshäufigkeit, dass das Item von vielen Personen gelöst wurde und daher eher leicht ist.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_KTT_006",
+      "dimension": "KTT",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 5,
+        "topic": "True Score und Messfehler"
+      },
+      "b_value": -1.3,
+      "b_basis": "expert_estimate",
+      "b_confidence": "high",
+      "cognitive_process": "recall",
+      "item_type": "multiple_choice",
+      "stem": "Nach der klassischen Testtheorie setzt sich ein beobachteter Testwert idealtypisch zusammen aus ...",
+      "options": {
+        "A": "Normwert und Prozentrang",
+        "B": "wahrem Wert und Messfehler",
+        "C": "Validität und Objektivität",
+        "D": "Itemschwierigkeit und Trennschärfe"
+      },
+      "correct_key": "B",
+      "rationale": "Die klassische Testtheorie modelliert den beobachteten Wert als Summe aus wahrem Wert und Messfehler.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_NORM_007",
+      "dimension": "Testwertinterpretation_und_Normierung",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 8,
+        "topic": "Normorientierte Interpretation"
+      },
+      "b_value": -1.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Eine Testperson erhält einen Prozentrang von 84. Welche Interpretation ist am besten?",
+      "options": {
+        "A": "Die Person hat 84 Prozent der Aufgaben richtig gelöst.",
+        "B": "Die Person liegt höher als etwa 84 Prozent der Normstichprobe.",
+        "C": "Die Person hat einen IQ von 84.",
+        "D": "Die Person liegt exakt eine Standardabweichung unter dem Mittelwert."
+      },
+      "correct_key": "B",
+      "rationale": "Ein Prozentrang beschreibt die relative Position einer Person in der Normverteilung, nicht den Anteil korrekt gelöster Aufgaben.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_REL_008",
+      "dimension": "Reliabilitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 6,
+        "topic": "Retest-Reliabilität"
+      },
+      "b_value": -0.7,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Welche Reliabilitätsmethode ist besonders geeignet, wenn die zeitliche Stabilität eines Merkmals bzw. eines Testwerts geprüft werden soll?",
+      "options": {
+        "A": "Retest-Reliabilität",
+        "B": "Interne Konsistenz",
+        "C": "Auswertungsobjektivität",
+        "D": "Inhaltsvalidität"
+      },
+      "correct_key": "A",
+      "rationale": "Die Retest-Reliabilität prüft die Stabilität von Testwerten über wiederholte Messzeitpunkte hinweg.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_VAL_009",
+      "dimension": "Validitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 7,
+        "topic": "Inhaltsvalidität"
+      },
+      "b_value": -0.4,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Ein Mathematiktest enthält fast ausschließlich Kopfrechenaufgaben, obwohl laut Testmanual auch Geometrie, Algebra und Textaufgaben erfasst werden sollen. Welches Problem liegt am nächsten?",
+      "options": {
+        "A": "Geringe Retest-Reliabilität",
+        "B": "Mangelnde Inhaltsvalidität",
+        "C": "Fehlende Auswertungsobjektivität",
+        "D": "Zu hohe Normierung"
+      },
+      "correct_key": "B",
+      "rationale": "Wenn zentrale Inhaltsbereiche des intendierten Konstrukts fehlen, ist die Inhaltsrepräsentation und damit die Inhaltsvalidität gefährdet.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_ITEM_010",
+      "dimension": "Itemanalyse",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 4,
+        "topic": "Trennschärfe"
+      },
+      "b_value": 0.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "interpretation",
+      "item_type": "interpretation_item",
+      "stem": "Ein Item weist eine sehr geringe Trennschärfe auf. Was bedeutet dies am ehesten?",
+      "options": {
+        "A": "Das Item unterscheidet gut zwischen Personen mit hoher und niedriger Testausprägung.",
+        "B": "Das Item hängt nur schwach mit dem Gesamttestwert zusammen.",
+        "C": "Das Item ist automatisch zu schwierig.",
+        "D": "Das Item ist besonders valide."
+      },
+      "correct_key": "B",
+      "rationale": "Die Trennschärfe beschreibt den Zusammenhang eines Items mit dem Gesamttestwert bzw. der intendierten Skala.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_KTT_011",
+      "dimension": "KTT",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 5,
+        "topic": "Standardmessfehler"
+      },
+      "b_value": 0.4,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "interpretation",
+      "item_type": "single_best_answer",
+      "stem": "Ein Test hat eine Reliabilität von .90. Im Vergleich zu einem gleich streuenden Test mit Reliabilität .60 ist der Standardmessfehler ...",
+      "options": {
+        "A": "größer",
+        "B": "kleiner",
+        "C": "identisch",
+        "D": "nicht bestimmbar, weil Reliabilität und Messfehler unabhängig sind"
+      },
+      "correct_key": "B",
+      "rationale": "Bei gleicher Testwertstreuung sinkt der Standardmessfehler mit steigender Reliabilität.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_REL_012",
+      "dimension": "Reliabilitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 6,
+        "topic": "Interne Konsistenz"
+      },
+      "b_value": 0.8,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Ein Fragebogen besteht aus vielen sehr ähnlichen Items. Cronbachs Alpha ist sehr hoch. Welche Interpretation ist am angemessensten?",
+      "options": {
+        "A": "Der Fragebogen ist dadurch automatisch valide.",
+        "B": "Die interne Konsistenz ist hoch, aber inhaltliche Redundanz und Konstruktverengung müssen geprüft werden.",
+        "C": "Ein hohes Alpha beweist Mehrdimensionalität.",
+        "D": "Ein hohes Alpha zeigt, dass keine Messfehler vorliegen."
+      },
+      "correct_key": "B",
+      "rationale": "Ein hohes Alpha kann durch Homogenität oder Redundanz entstehen. Es ersetzt keine Prüfung der Inhalts- und Konstruktvalidität.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_PLAN_013",
+      "dimension": "Testplanung_und_Testentwicklung",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 3,
+        "topic": "Antwortformate"
+      },
+      "b_value": 1.1,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Ein Forschungsteam möchte Einstellungen zu Klimaschutzmaßnahmen erfassen. Welche Antwortskala ist für typische Einstellungsitems am naheliegendsten?",
+      "options": {
+        "A": "Dichotome Richtig/Falsch-Kodierung",
+        "B": "Likert-Skala mit abgestuften Zustimmungsoptionen",
+        "C": "Reaktionszeitmessung ohne Antwortinhalt",
+        "D": "Zufällige Rangordnung der Items als Testwert"
+      },
+      "correct_key": "B",
+      "rationale": "Einstellungen werden häufig über abgestufte Zustimmungsskalen erfasst, etwa Likert-artige Antwortformate.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_VAL_014",
+      "dimension": "Validitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 7,
+        "topic": "Kriteriumsvalidität"
+      },
+      "b_value": 1.4,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Ein Auswahltest für ein Studium korreliert deutlich mit späteren Studiennoten. Welche Validitätsevidenz ist damit primär angesprochen?",
+      "options": {
+        "A": "Inhaltsvalidität",
+        "B": "Kriteriumsbezogene Validität",
+        "C": "Durchführungsobjektivität",
+        "D": "Normierungsvalidität"
+      },
+      "correct_key": "B",
+      "rationale": "Der Zusammenhang zwischen Testwerten und einem externen Erfolgskriterium liefert kriteriumsbezogene Validitätsevidenz.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_NORM_015",
+      "dimension": "Testwertinterpretation_und_Normierung",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 8,
+        "topic": "Norm- vs. kriteriumsorientierte Interpretation"
+      },
+      "b_value": 1.7,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Ein Sprachtest entscheidet, ob ein Kind eine definierte Mindestkompetenz für die Teilnahme an einem Förderprogramm erreicht. Welche Interpretationsform steht im Vordergrund?",
+      "options": {
+        "A": "Kriteriumsorientierte Interpretation",
+        "B": "Reine Normorientierung",
+        "C": "Ipsative Interpretation",
+        "D": "Zufallsbasierte Interpretation"
+      },
+      "correct_key": "A",
+      "rationale": "Wenn ein Testwert mit einer inhaltlich definierten Kompetenzschwelle verglichen wird, handelt es sich primär um kriteriumsorientierte Interpretation.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_ITEM_016",
+      "dimension": "Itemanalyse",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 4,
+        "topic": "Itemselektion"
+      },
+      "b_value": 2.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Testentwickler entfernt alle Items mit mittlerer Trennschärfe und behält nur sehr ähnliche Items mit sehr hoher Trennschärfe. Welches Risiko entsteht?",
+      "options": {
+        "A": "Die Inhaltsbreite des Konstrukts kann künstlich verengt werden.",
+        "B": "Die Reliabilität muss zwingend auf null sinken.",
+        "C": "Die Durchführungsobjektivität wird unmöglich.",
+        "D": "Die Normierung wird automatisch besser."
+      },
+      "correct_key": "A",
+      "rationale": "Eine Itemselektion nur nach statistischen Kennwerten kann die Inhaltsrepräsentation gefährden, insbesondere wenn ähnliche Items bevorzugt werden.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_IRT_017",
+      "dimension": "IRT_und_Modellannahmen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 10,
+        "topic": "Personenfähigkeit und Itemschwierigkeit"
+      },
+      "b_value": 2.3,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "interpretation",
+      "item_type": "single_best_answer",
+      "stem": "In einem Rasch-Modell liegt die Fähigkeit einer Person deutlich über der Schwierigkeit eines Items. Was ist zu erwarten?",
+      "options": {
+        "A": "Die Lösungswahrscheinlichkeit ist eher hoch.",
+        "B": "Die Lösungswahrscheinlichkeit ist exakt .50.",
+        "C": "Das Item ist für diese Person unlösbar.",
+        "D": "Die Itemschwierigkeit steigt durch die Fähigkeit der Person."
+      },
+      "correct_key": "A",
+      "rationale": "In IRT-Modellen steigt die Wahrscheinlichkeit einer richtigen Antwort, wenn die Personenfähigkeit über der Itemschwierigkeit liegt.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_CAT_018",
+      "dimension": "Adaptives_Testen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 11,
+        "topic": "Grundgedanke adaptiven Testens"
+      },
+      "b_value": 2.6,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Was ist der zentrale Grundgedanke computergestützten adaptiven Testens?",
+      "options": {
+        "A": "Alle Personen erhalten dieselben Items in derselben Reihenfolge.",
+        "B": "Items werden so ausgewählt, dass sie möglichst gut zur geschätzten Merkmalsausprägung der Person passen.",
+        "C": "Die Testdauer wird absichtlich maximiert.",
+        "D": "Reliabilität und Validität werden durch Adaptivität irrelevant."
+      },
+      "correct_key": "B",
+      "rationale": "Adaptives Testen wählt Items abhängig von der bisherigen Fähigkeitsschätzung aus, um effizient und präzise zu messen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_STD_019",
+      "dimension": "Teststandards_und_Fairness",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 9,
+        "topic": "Testanwendung und Standards"
+      },
+      "b_value": 2.9,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Eine Testanwenderin interpretiert einen klinischen Fragebogen außerhalb der Zielpopulation, für die Normen und Validitätsbelege vorliegen. Was ist das Hauptproblem?",
+      "options": {
+        "A": "Die Itemvarianz wird automatisch null.",
+        "B": "Die vorgesehene Testwertinterpretation ist möglicherweise nicht abgesichert.",
+        "C": "Die Auswertung wird immer objektiver.",
+        "D": "Die Retest-Reliabilität steigt."
+      },
+      "correct_key": "B",
+      "rationale": "Testwerte dürfen nur im Rahmen jener Populationen, Zwecke und Interpretationen verwendet werden, für die hinreichende Belege vorliegen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_VAL_020",
+      "dimension": "Validitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 7,
+        "topic": "Validitätsargument"
+      },
+      "b_value": 3.2,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein neuer Test wird als valide bezeichnet, weil Cronbachs Alpha .93 beträgt. Welche Kritik ist am stärksten?",
+      "options": {
+        "A": "Hohe Reliabilität ersetzt keine Validitätsbelege für die intendierte Interpretation.",
+        "B": "Ein Alpha von .93 beweist, dass der Test unfair ist.",
+        "C": "Reliabilität und Validität sind identisch.",
+        "D": "Validität kann nur durch Retest-Reliabilität geprüft werden."
+      },
+      "correct_key": "A",
+      "rationale": "Reliabilität ist eine notwendige, aber keine hinreichende Bedingung für valide Testwertinterpretationen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_IRT_021",
+      "dimension": "IRT_und_Modellannahmen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 10,
+        "topic": "Rasch-Modell"
+      },
+      "b_value": 3.5,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "In einem Rasch-Modell zeigen zwei Items deutlich unterschiedliche Diskriminationsverläufe; ihre Itemcharakteristikkurven kreuzen sich. Welche Aussage ist am besten?",
+      "options": {
+        "A": "Das ist unproblematisch, weil Rasch-Items beliebige Diskriminationen haben dürfen.",
+        "B": "Dies spricht gegen die Annahme gleicher Diskriminationen bzw. spezifischer Objektivität.",
+        "C": "Dies beweist, dass die Testwerte normiert sind.",
+        "D": "Dies ist nur ein Problem der Durchführungsobjektivität."
+      },
+      "correct_key": "B",
+      "rationale": "Das Rasch-Modell setzt gleiche Itemdiskriminationen voraus. Kreuzende ICCs sprechen dafür, dass diese Annahme verletzt sein könnte.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_FAIR_022",
+      "dimension": "Teststandards_und_Fairness",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 9,
+        "topic": "Fairness"
+      },
+      "b_value": 3.8,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Zwei Gruppen unterscheiden sich im mittleren Testwert. Welche Aussage ist testtheoretisch am besten?",
+      "options": {
+        "A": "Ein Gruppenunterschied beweist automatisch Testunfairness.",
+        "B": "Ein Gruppenunterschied ist irrelevant, wenn Alpha hoch ist.",
+        "C": "Ein Gruppenunterschied allein beweist keine Unfairness; es müssen u. a. Itemfunktion, Validität und Interpretationskontext geprüft werden.",
+        "D": "Fairness kann nur durch Normierung geprüft werden."
+      },
+      "correct_key": "C",
+      "rationale": "Gruppenunterschiede sind nicht automatisch unfair. Fairness erfordert eine differenzierte Prüfung von Itemfunktion, Validitätsargument und Anwendungskontext.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_CAT_023",
+      "dimension": "Adaptives_Testen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 11,
+        "topic": "Itemauswahl im CAT"
+      },
+      "b_value": 4.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Ein adaptiver Test wählt nach einer falschen Antwort ein deutlich leichteres Item und nach einer richtigen Antwort ein schwereres Item. Was wird dadurch näherungsweise angestrebt?",
+      "options": {
+        "A": "Eine zufällige Itemreihenfolge",
+        "B": "Eine Itemschwierigkeit nahe der aktuellen Fähigkeitsschätzung",
+        "C": "Eine maximale Testlänge",
+        "D": "Eine vollständige Vermeidung von Messfehlern"
+      },
+      "correct_key": "B",
+      "rationale": "CAT versucht, Items mit hoher Information im Bereich der aktuellen Fähigkeitsschätzung auszuwählen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_DIM_024",
+      "dimension": "Dimensionalitaet_und_Faktorenanalyse",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 13,
+        "topic": "EFA und CFA"
+      },
+      "b_value": 4.2,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Ein Testmanual behauptet, der Fragebogen messe drei theoretisch definierte Dimensionen. Welche Analyse ist besonders geeignet, um diese vorab spezifizierte Struktur zu prüfen?",
+      "options": {
+        "A": "Konfirmatorische Faktorenanalyse",
+        "B": "Retest-Korrelation",
+        "C": "Prozentrangberechnung",
+        "D": "Itemschwierigkeit"
+      },
+      "correct_key": "A",
+      "rationale": "Die konfirmatorische Faktorenanalyse prüft theoriegeleitet eine vorab spezifizierte Faktorenstruktur.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_FAIR_025",
+      "dimension": "Teststandards_und_Fairness",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 9,
+        "topic": "DIF und Fairness"
+      },
+      "b_value": 4.4,
+      "b_basis": "expert_estimate",
+      "b_confidence": "low",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Item wird bei gleicher Gesamtausprägung von Gruppe A deutlich häufiger gelöst als von Gruppe B. Welche Interpretation ist am angemessensten?",
+      "options": {
+        "A": "Es liegt möglicherweise Differential Item Functioning vor; die Fairness und Validität der Iteminterpretation sollten geprüft werden.",
+        "B": "Der gesamte Test ist damit automatisch ungültig.",
+        "C": "Das Item ist besonders reliabel.",
+        "D": "Das Problem verschwindet durch höhere interne Konsistenz."
+      },
+      "correct_key": "A",
+      "rationale": "DIF bedeutet, dass Gruppen bei gleicher Merkmalsausprägung unterschiedliche Lösungswahrscheinlichkeiten zeigen. Dies ist ein Hinweis auf ein potenzielles Fairness- oder Validitätsproblem, aber nicht automatisch ein Beweis für Unfairness des gesamten Tests.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_VAL_026",
+      "dimension": "Validitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 7,
+        "topic": "Konstruktvalidität und Interpretationsargument"
+      },
+      "b_value": 4.6,
+      "b_basis": "expert_estimate",
+      "b_confidence": "low",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Test zur 'allgemeinen Testentwicklungskompetenz' besteht fast ausschließlich aus Rechenaufgaben zu Reliabilität und Itemanalyse. Welche Kritik ist am stärksten?",
+      "options": {
+        "A": "Der Test ist vermutlich zu ökonomisch.",
+        "B": "Der Test könnte das intendierte Konstrukt unterrepräsentieren, weil zentrale Aspekte wie Konstruktdefinition, Itemformulierung, Validitätsargument und Fairness fehlen.",
+        "C": "Rechenaufgaben sind in psychologischen Tests grundsätzlich verboten.",
+        "D": "Die Objektivität ist automatisch nicht gegeben."
+      },
+      "correct_key": "B",
+      "rationale": "Wenn zentrale Facetten des Zielkonstrukts fehlen, liegt eine Bedrohung durch Konstruktunterrepräsentation vor.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_IRT_027",
+      "dimension": "IRT_und_Modellannahmen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 10,
+        "topic": "Lokale stochastische Unabhängigkeit"
+      },
+      "b_value": 4.8,
+      "b_basis": "expert_estimate",
+      "b_confidence": "low",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Mehrere Items eines Tests teilen dieselbe lange Fallvignette. Auch nach Kontrolle des latenten Merkmals korrelieren die Itemantworten deutlich. Welche Annahme ist am ehesten betroffen?",
+      "options": {
+        "A": "Lokale stochastische Unabhängigkeit",
+        "B": "Normwertlinearität",
+        "C": "Retest-Stabilität",
+        "D": "Zumutbarkeit"
+      },
+      "correct_key": "A",
+      "rationale": "Wenn Itemantworten nach Kontrolle des latenten Merkmals weiterhin zusammenhängen, kann lokale stochastische Unabhängigkeit verletzt sein, etwa durch gemeinsame Stimulus- oder Testlet-Effekte.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_CAT_028",
+      "dimension": "Adaptives_Testen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 11,
+        "topic": "Adaptive Itembank"
+      },
+      "b_value": 5.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "low",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein adaptiver Test erzeugt bei hohen Fähigkeitsschätzungen live neue Items, weist ihnen aber ohne Pilotdaten einen b-Wert zu und nutzt sie direkt für Cut-off-Entscheidungen. Was ist die stärkste Kritik?",
+      "options": {
+        "A": "Live-generierte Items sind grundsätzlich unmöglich.",
+        "B": "Ohne empirische Kalibrierung ist die gemeinsame θ/b-Skala und damit besonders die Cut-off-Interpretation gefährdet.",
+        "C": "Adaptives Testen darf keine schweren Items enthalten.",
+        "D": "Das Problem betrifft nur die Testökonomie."
+      },
+      "correct_key": "B",
+      "rationale": "Für belastbare adaptive Entscheidungen müssen Itemparameter empirisch abgesichert sein. Expertenschätzungen oder LLM-Judges ersetzen keine Kalibrierung.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_VAL_029",
+      "dimension": "Validitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 7,
+        "topic": "Construct-Irrelevant Variance"
+      },
+      "b_value": 5.2,
+      "b_basis": "expert_estimate",
+      "b_confidence": "low",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Test zur psychometrischen Urteilskompetenz enthält sehr lange, sprachlich komplexe Fallvignetten. Personen mit hoher Lesekompetenz schneiden unabhängig von psychometrischer Expertise besser ab. Welche Validitätsbedrohung liegt am nächsten?",
+      "options": {
+        "A": "Construct-Irrelevant Variance",
+        "B": "Perfekte Inhaltsvalidität",
+        "C": "Erhöhte Paralleltest-Reliabilität",
+        "D": "Normierungsgewinn"
+      },
+      "correct_key": "A",
+      "rationale": "Wenn testfremde Fähigkeiten wie Lesekompetenz die Testwerte systematisch beeinflussen, ist die Interpretation durch construct-irrelevante Varianz bedroht.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_SYN_030",
+      "dimension": "Integrative_psychometrische_Urteilskompetenz",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": "2-11",
+        "topic": "Integration von Gütekriterien, Validität, IRT und adaptivem Testen"
+      },
+      "b_value": 5.5,
+      "b_basis": "expert_estimate",
+      "b_confidence": "low",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Test zeigt hohe interne Konsistenz, gute globale Modellfitwerte und eine stabile adaptive θ-Schätzung. Gleichzeitig decken die Items nur einen engen Ausschnitt des intendierten Konstrukts ab. Welche Aussage ist am besten?",
+      "options": {
+        "A": "Der Test ist valide, weil Reliabilität, Modellfit und θ-Stabilität ausreichen.",
+        "B": "Die Befunde sprechen für Messpräzision im erfassten Ausschnitt, sichern aber nicht die intendierte umfassende Testwertinterpretation ab.",
+        "C": "Hohe interne Konsistenz beweist automatisch Inhaltsvalidität.",
+        "D": "Ein stabiler θ-Wert macht Validitätsprüfung überflüssig."
+      },
+      "correct_key": "B",
+      "rationale": "Reliabilität, Modellfit und adaptive Stabilität sichern nicht automatisch die inhaltliche Breite und Validität der intendierten Interpretation. Es kann Konstruktunterrepräsentation vorliegen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_001",
+      "dimension": "Testguetekriterien",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 2,
+        "topic": "Durchführungsobjektivität"
+      },
+      "b_value": -2.9,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "recall",
+      "item_type": "multiple_choice",
+      "stem": "Welche Form der Objektivität ist primär betroffen, wenn Testleiter:innen unterschiedlich viele Hilfestellungen geben?",
+      "options": {
+        "A": "Auswertungsobjektivität",
+        "B": "Durchführungsobjektivität",
+        "C": "Interpretationsobjektivität",
+        "D": "Normierungsobjektivität"
+      },
+      "correct_key": "B",
+      "rationale": "Unterschiedliche Hilfestellungen verändern die Standardisierung der Testdurchführung.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_002",
+      "dimension": "Testguetekriterien",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 2,
+        "topic": "Auswertungsobjektivität"
+      },
+      "b_value": -2.6,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "recall",
+      "item_type": "multiple_choice",
+      "stem": "Ein offenes Antwortformat wird von zwei Personen unterschiedlich bepunktet, obwohl dieselbe Antwort vorliegt. Welches Problem liegt am nächsten?",
+      "options": {
+        "A": "fehlende Auswertungsobjektivität",
+        "B": "fehlende Retest-Reliabilität",
+        "C": "zu hohe Validität",
+        "D": "zu niedrige Testökonomie"
+      },
+      "correct_key": "A",
+      "rationale": "Wenn gleiche Antworten unterschiedlich bewertet werden, ist die Auswertungsobjektivität gefährdet.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_003",
+      "dimension": "Testguetekriterien",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 2,
+        "topic": "Interpretationsobjektivität"
+      },
+      "b_value": -2.3,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "recall",
+      "item_type": "multiple_choice",
+      "stem": "Zwei Diagnostiker:innen erhalten denselben Testwert, ziehen aber ohne klare Regeln stark unterschiedliche Schlussfolgerungen. Welche Objektivitätsform ist betroffen?",
+      "options": {
+        "A": "Durchführungsobjektivität",
+        "B": "Auswertungsobjektivität",
+        "C": "Interpretationsobjektivität",
+        "D": "Paralleltestobjektivität"
+      },
+      "correct_key": "C",
+      "rationale": "Interpretationsobjektivität meint übereinstimmende Schlussfolgerungen aus denselben Testergebnissen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_004",
+      "dimension": "Testplanung_und_Testentwicklung",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 3,
+        "topic": "Zielgruppe"
+      },
+      "b_value": -2.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Warum muss die Zielgruppe vor der Itemkonstruktion definiert werden?",
+      "options": {
+        "A": "Damit Iteminhalte, Schwierigkeit und Sprache zum Anwendungskontext passen.",
+        "B": "Damit Reliabilität nicht mehr geprüft werden muss.",
+        "C": "Damit die Normierung automatisch repräsentativ ist.",
+        "D": "Damit alle Items gleich leicht werden."
+      },
+      "correct_key": "A",
+      "rationale": "Zielgruppe und Testzweck steuern Inhalte, Sprache, Schwierigkeit und spätere Interpretation.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_005",
+      "dimension": "Testplanung_und_Testentwicklung",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 3,
+        "topic": "Konstruktdefinition"
+      },
+      "b_value": -1.8,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Welche Entscheidung gehört am ehesten zur theoretischen Testplanung?",
+      "options": {
+        "A": "Auswahl eines Drucklayouts",
+        "B": "Definition der Facetten des Zielkonstrukts",
+        "C": "Berechnung des finalen Cronbachs Alpha vor der Erhebung",
+        "D": "Festlegung empirischer Normwerte ohne Daten"
+      },
+      "correct_key": "B",
+      "rationale": "Die theoretische Festlegung des Konstrukts und seiner Facetten ist zentral vor der Itemerstellung.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_006",
+      "dimension": "Itemanalyse",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 4,
+        "topic": "Itemvarianz"
+      },
+      "b_value": -1.5,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "interpretation",
+      "item_type": "single_best_answer",
+      "stem": "Bei einem dichotomen Item ist die Varianz maximal, wenn die Lösungshäufigkeit ungefähr ...",
+      "options": {
+        "A": ".10 beträgt",
+        "B": ".50 beträgt",
+        "C": ".90 beträgt",
+        "D": "1.00 beträgt"
+      },
+      "correct_key": "B",
+      "rationale": "Für dichotome Items gilt p(1-p); diese Varianz ist bei p=.50 maximal.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_007",
+      "dimension": "Itemanalyse",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 4,
+        "topic": "Itemschwierigkeit"
+      },
+      "b_value": -1.2,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "interpretation",
+      "item_type": "single_best_answer",
+      "stem": "Ein Leistungstest enthält nur Items mit p-Werten zwischen .95 und .99. Welche Folge ist am wahrscheinlichsten?",
+      "options": {
+        "A": "Gute Differenzierung im oberen und mittleren Bereich",
+        "B": "Geringe Streuung und schwache Differenzierung",
+        "C": "Automatische Erhöhung der Validität",
+        "D": "Keine Bedeutung für Testwerte"
+      },
+      "correct_key": "B",
+      "rationale": "Sehr leichte Items werden fast von allen gelöst und liefern wenig Varianz.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_008",
+      "dimension": "KTT",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 5,
+        "topic": "Messfehler"
+      },
+      "b_value": -1.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "recall",
+      "item_type": "multiple_choice",
+      "stem": "Was bezeichnet der Messfehler in der klassischen Testtheorie am ehesten?",
+      "options": {
+        "A": "Die systematische Normierung eines Tests",
+        "B": "Die Abweichung des beobachteten Werts vom wahren Wert",
+        "C": "Die Anzahl richtiger Items",
+        "D": "Die Schwierigkeit eines Items"
+      },
+      "correct_key": "B",
+      "rationale": "Der beobachtete Wert wird als wahrer Wert plus Messfehler verstanden.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_009",
+      "dimension": "Reliabilitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 6,
+        "topic": "Paralleltest-Reliabilität"
+      },
+      "b_value": -0.8,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Welche Methode prüft die Übereinstimmung zweier möglichst äquivalenter Testformen?",
+      "options": {
+        "A": "Paralleltest-Reliabilität",
+        "B": "Inhaltsvalidität",
+        "C": "Prozentrangnormierung",
+        "D": "DIF-Analyse"
+      },
+      "correct_key": "A",
+      "rationale": "Paralleltest-Reliabilität basiert auf der Korrelation zweier äquivalenter Testformen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_010",
+      "dimension": "Reliabilitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 6,
+        "topic": "Split-Half-Reliabilität"
+      },
+      "b_value": -0.6,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Ein Test wird in zwei Hälften geteilt und die Halbtestwerte werden korreliert. Welche Reliabilitätsmethode ist gemeint?",
+      "options": {
+        "A": "Retest-Reliabilität",
+        "B": "Split-Half-Reliabilität",
+        "C": "Kriteriumsvalidität",
+        "D": "Normorientierung"
+      },
+      "correct_key": "B",
+      "rationale": "Split-Half nutzt die Beziehung zwischen zwei Testhälften zur Reliabilitätsschätzung.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_011",
+      "dimension": "Validitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 7,
+        "topic": "Validität diagnostischer Entscheidungen"
+      },
+      "b_value": -0.3,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Ein Screening soll Personen mit Unterstützungsbedarf möglichst selten übersehen. Welcher Kennwert ist besonders relevant?",
+      "options": {
+        "A": "Sensitivität",
+        "B": "Itemvarianz",
+        "C": "Auswertungszeit",
+        "D": "Paralleltestlänge"
+      },
+      "correct_key": "A",
+      "rationale": "Sensitivität beschreibt den Anteil korrekt erkannter tatsächlich positiver Fälle.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_012",
+      "dimension": "Testwertinterpretation_und_Normierung",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 8,
+        "topic": "T-Werte"
+      },
+      "b_value": 0.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "interpretation",
+      "item_type": "single_best_answer",
+      "stem": "Ein T-Wert von 60 bedeutet bei M=50 und SD=10 ungefähr ...",
+      "options": {
+        "A": "eine Standardabweichung über dem Mittelwert",
+        "B": "eine Standardabweichung unter dem Mittelwert",
+        "C": "60 Prozent richtige Antworten",
+        "D": "einen Prozentrang von exakt 60"
+      },
+      "correct_key": "A",
+      "rationale": "T=60 liegt 10 Punkte über dem Mittelwert, also etwa eine Standardabweichung.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_013",
+      "dimension": "Teststandards_und_Fairness",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 9,
+        "topic": "Einwilligung und Aufklärung"
+      },
+      "b_value": 0.2,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Welche Praxis entspricht am ehesten professionellen Teststandards?",
+      "options": {
+        "A": "Testzweck und Nutzung der Ergebnisse transparent machen",
+        "B": "Normen unabhängig von Zielgruppe verwenden",
+        "C": "Testmaterial beliebig verändern",
+        "D": "Rohwerte ohne Kontext als Diagnose mitteilen"
+      },
+      "correct_key": "A",
+      "rationale": "Testpersonen sollten über Zweck, Ablauf und Ergebnisverwendung angemessen informiert werden.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_014",
+      "dimension": "IRT_und_Modellannahmen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 10,
+        "topic": "Itemcharakteristikkurve"
+      },
+      "b_value": 0.4,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "interpretation",
+      "item_type": "single_best_answer",
+      "stem": "Was beschreibt eine Itemcharakteristikkurve in der IRT?",
+      "options": {
+        "A": "Die Beziehung zwischen latenter Fähigkeit und Antwortwahrscheinlichkeit",
+        "B": "Die Reihenfolge der Normtabellen",
+        "C": "Die Korrelation zweier Testleiter",
+        "D": "Die Länge der Instruktion"
+      },
+      "correct_key": "A",
+      "rationale": "Die ICC verknüpft latente Merkmalsausprägung mit Lösungs- oder Antwortwahrscheinlichkeit.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_015",
+      "dimension": "Adaptives_Testen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 11,
+        "topic": "Startregel"
+      },
+      "b_value": 0.6,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Warum werden im CAT häufig Startitems mittlerer Schwierigkeit oder ein Routing genutzt?",
+      "options": {
+        "A": "Um eine erste grobe Fähigkeitsschätzung zu erhalten",
+        "B": "Um Validität zu ersetzen",
+        "C": "Um alle Items vorzugeben",
+        "D": "Um Messfehler künstlich zu erhöhen"
+      },
+      "correct_key": "A",
+      "rationale": "Zu Beginn ist θ unsicher; mittlere Startitems oder Routing helfen bei der ersten Lokalisierung.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_016",
+      "dimension": "Dimensionalitaet_und_Faktorenanalyse",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 13,
+        "topic": "EFA"
+      },
+      "b_value": 0.8,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Wann ist eine exploratorische Faktorenanalyse besonders naheliegend?",
+      "options": {
+        "A": "Wenn die Faktorenstruktur noch nicht klar spezifiziert ist",
+        "B": "Wenn ein einzelner Prozentrang berechnet werden soll",
+        "C": "Wenn nur Durchführungszeit gemessen wird",
+        "D": "Wenn alle Items bereits als Rasch-konform bewiesen sind"
+      },
+      "correct_key": "A",
+      "rationale": "EFA dient der datengeleiteten Erkundung möglicher Faktorstrukturen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_017",
+      "dimension": "Testplanung_und_Testentwicklung",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 3,
+        "topic": "Itemformulierung"
+      },
+      "b_value": 1.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Item lautet: „Ich bin nie nicht unkonzentriert.“ Was ist das Hauptproblem?",
+      "options": {
+        "A": "Die doppelte Verneinung erschwert das Verständnis unnötig.",
+        "B": "Das Item ist automatisch hoch valide.",
+        "C": "Das Item hat sicher maximale Trennschärfe.",
+        "D": "Die Normierung wird dadurch verbessert."
+      },
+      "correct_key": "A",
+      "rationale": "Komplexe oder doppelt verneinte Formulierungen erhöhen construct-irrelevante Verständnisanforderungen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_018",
+      "dimension": "Itemanalyse",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 4,
+        "topic": "Trennschärfe"
+      },
+      "b_value": 1.2,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "interpretation",
+      "item_type": "single_best_answer",
+      "stem": "Ein sehr leichtes Item hat dennoch eine brauchbare Trennschärfe. Was folgt daraus?",
+      "options": {
+        "A": "Es kann für bestimmte niedrige Fähigkeitsbereiche informativ sein.",
+        "B": "Es muss zwingend gelöscht werden.",
+        "C": "Es beweist die Validität des Gesamttests.",
+        "D": "Es macht Normierung überflüssig."
+      },
+      "correct_key": "A",
+      "rationale": "Auch leichte Items können nützlich sein, wenn sie für relevante Bereiche differenzieren.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_019",
+      "dimension": "KTT",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 5,
+        "topic": "Konfidenzintervall"
+      },
+      "b_value": 1.4,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "interpretation",
+      "item_type": "single_best_answer",
+      "stem": "Wozu dient ein Konfidenzintervall um einen Testwert in der KTT?",
+      "options": {
+        "A": "Zur Darstellung der Unsicherheit wegen Messfehlers",
+        "B": "Zur Erhöhung der Itemzahl",
+        "C": "Zum Beweis der Inhaltsvalidität",
+        "D": "Zur zufälligen Itemauswahl"
+      },
+      "correct_key": "A",
+      "rationale": "Das Intervall berücksichtigt Messungenauigkeit bei der Interpretation individueller Testwerte.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_020",
+      "dimension": "Reliabilitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 6,
+        "topic": "Interne Konsistenz"
+      },
+      "b_value": 1.6,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Warum ist ein sehr hohes Alpha bei einem breiten Konstrukt nicht automatisch ideal?",
+      "options": {
+        "A": "Es kann auf Redundanz oder Konstruktverengung hindeuten.",
+        "B": "Es beweist niedrige Objektivität.",
+        "C": "Es macht alle Items schwieriger.",
+        "D": "Es verhindert Testnormierung."
+      },
+      "correct_key": "A",
+      "rationale": "Sehr hohe interne Konsistenz kann bei breiten Konstrukten auch bedeuten, dass nur ein enger Inhaltsausschnitt erfasst wird.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_021",
+      "dimension": "Validitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 7,
+        "topic": "Konvergente Validität"
+      },
+      "b_value": 1.8,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Ein neuer Angstfragebogen korreliert hoch mit etablierten Angstmaßen. Welche Evidenz ist primär angesprochen?",
+      "options": {
+        "A": "Konvergente Validitätsevidenz",
+        "B": "Retest-Reliabilität",
+        "C": "Durchführungsobjektivität",
+        "D": "Testökonomie"
+      },
+      "correct_key": "A",
+      "rationale": "Hohe Zusammenhänge mit theoretisch ähnlichen Konstrukten sprechen für konvergente Validität.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_022",
+      "dimension": "Validitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 7,
+        "topic": "Diskriminante Validität"
+      },
+      "b_value": 2.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Ein Depressionsfragebogen korreliert nahezu perfekt mit einem allgemeinen Belastungsmaß. Welche Frage stellt sich besonders?",
+      "options": {
+        "A": "Ob die diskriminante Validität gegenüber verwandten Konstrukten ausreicht",
+        "B": "Ob die Durchführungsobjektivität zu hoch ist",
+        "C": "Ob der Prozentrang falsch berechnet wurde",
+        "D": "Ob die Itemvarianz immer null ist"
+      },
+      "correct_key": "A",
+      "rationale": "Sehr hohe Korrelationen mit verwandten, aber nicht identischen Konstrukten können mangelnde Abgrenzung anzeigen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_023",
+      "dimension": "Testwertinterpretation_und_Normierung",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 8,
+        "topic": "Normstichprobe"
+      },
+      "b_value": 2.2,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Intelligenztest wird mit Normen verwendet, die vor 25 Jahren erhoben wurden. Was ist das Hauptproblem?",
+      "options": {
+        "A": "Die Bezugsgruppe könnte veraltet sein; Normaktualität muss geprüft werden.",
+        "B": "Der Test ist dadurch automatisch reliabler.",
+        "C": "Itemschwierigkeiten sind dann irrelevant.",
+        "D": "Objektivität wird unmöglich."
+      },
+      "correct_key": "A",
+      "rationale": "Normorientierte Interpretation setzt eine passende und aktuelle Bezugsgruppe voraus.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_024",
+      "dimension": "Teststandards_und_Fairness",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 9,
+        "topic": "Testadaptation"
+      },
+      "b_value": 2.4,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Ein Fragebogen wird wörtlich übersetzt und ohne weitere Prüfung in einer anderen Kultur eingesetzt. Was fehlt vor allem?",
+      "options": {
+        "A": "Prüfung sprachlicher, kultureller und psychometrischer Äquivalenz",
+        "B": "Eine längere Schriftart",
+        "C": "Eine höhere Itemanzahl unabhängig vom Inhalt",
+        "D": "Ein Verzicht auf Validierung"
+      },
+      "correct_key": "A",
+      "rationale": "Testadaptationen brauchen Evidenz für Äquivalenz, Verständlichkeit und Güte in der Zielpopulation.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_025",
+      "dimension": "IRT_und_Modellannahmen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 10,
+        "topic": "Lokale Unabhängigkeit"
+      },
+      "b_value": 2.6,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Was bedeutet lokale stochastische Unabhängigkeit vereinfacht?",
+      "options": {
+        "A": "Nach Kontrolle von θ sollen Itemantworten nicht zusätzlich systematisch zusammenhängen.",
+        "B": "Alle Items müssen denselben Wortlaut haben.",
+        "C": "Alle Personen erhalten dieselbe Norm.",
+        "D": "Der Test darf nicht reliabel sein."
+      },
+      "correct_key": "A",
+      "rationale": "Lokale Unabhängigkeit fordert, dass Itemzusammenhänge durch das latente Merkmal erklärt werden.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_026",
+      "dimension": "IRT_und_Modellannahmen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 10,
+        "topic": "Rasch vs 2PL"
+      },
+      "b_value": 2.8,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein 2PL-Modell passt deutlich besser als ein Rasch-Modell, weil Items stark verschiedene Diskriminationen zeigen. Was ist eine plausible Konsequenz?",
+      "options": {
+        "A": "Die Annahme gleicher Diskriminationen im Rasch-Modell ist fraglich.",
+        "B": "Alle Items müssen leichter werden.",
+        "C": "Validität ist damit automatisch bewiesen.",
+        "D": "Normierung ist nicht mehr möglich."
+      },
+      "correct_key": "A",
+      "rationale": "Unterschiedliche Diskriminationen sprechen gegen Rasch-Restriktionen und können ein weniger restriktives Modell nahelegen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_027",
+      "dimension": "Adaptives_Testen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 11,
+        "topic": "Exposure Control"
+      },
+      "b_value": 3.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "In einem CAT werden die informativsten Items fast allen Personen vorgelegt. Welches Problem entsteht?",
+      "options": {
+        "A": "Item-Exposure und Testsicherheit können problematisch werden.",
+        "B": "Die Items werden dadurch automatisch inhaltsvalide.",
+        "C": "θ wird unabhängig von Antworten geschätzt.",
+        "D": "Die Testdauer muss steigen."
+      },
+      "correct_key": "A",
+      "rationale": "CAT benötigt oft Regeln zur Begrenzung der Itemexposition, um Sicherheit und Itembanknutzung zu steuern.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_028",
+      "dimension": "Adaptives_Testen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 11,
+        "topic": "Stopping Rule"
+      },
+      "b_value": 3.2,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Welche Stoppregel ist für ein adaptives Kompetenzscreening psychometrisch am plausibelsten?",
+      "options": {
+        "A": "Stoppen bei hinreichend kleinem Standardfehler oder stabiler Schätzung",
+        "B": "Stoppen nach dem ersten richtigen Item",
+        "C": "Stoppen nur bei maximaler Langeweile",
+        "D": "Stoppen, wenn alle Items exakt gleich schwer waren"
+      },
+      "correct_key": "A",
+      "rationale": "CAT-Stopps orientieren sich häufig an Präzision, Stabilität oder maximaler Testlänge.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_029",
+      "dimension": "Dimensionalitaet_und_Faktorenanalyse",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 13,
+        "topic": "CFA-Modellfit"
+      },
+      "b_value": 3.4,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Eine CFA zeigt guten globalen Fit, aber große korrelierte Residuen zwischen ähnlich formulierten Items. Was ist die beste Interpretation?",
+      "options": {
+        "A": "Mögliche lokale Abhängigkeit oder Methoden-/Formulierungsfaktoren sollten geprüft werden.",
+        "B": "Guter globaler Fit macht alle Residuen irrelevant.",
+        "C": "Die Items sind dadurch zwingend objektiver.",
+        "D": "Das beweist fehlende Reliabilität."
+      },
+      "correct_key": "A",
+      "rationale": "Globale Fit-Indizes können lokale Modellprobleme verdecken; Residuen geben zusätzliche Hinweise.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_030",
+      "dimension": "Teststandards_und_Fairness",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 9,
+        "topic": "DIF vs Impact"
+      },
+      "b_value": 3.6,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Warum ist DIF nicht dasselbe wie ein bloßer Gruppenmittelwertsunterschied?",
+      "options": {
+        "A": "DIF meint unterschiedliche Itemfunktion bei gleicher Merkmalsausprägung.",
+        "B": "DIF meint immer höhere Reliabilität.",
+        "C": "DIF betrifft nur Testdauer.",
+        "D": "DIF ist identisch mit Normierung."
+      },
+      "correct_key": "A",
+      "rationale": "DIF bezieht sich auf bedingte Itemunterschiede bei gleichem θ, nicht nur auf Gruppenmittelwerte.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_031",
+      "dimension": "Validitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 7,
+        "topic": "Validitätsargument"
+      },
+      "b_value": 3.8,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Testmanual berichtet viele Korrelationen, erklärt aber nicht, welche Interpretation des Testwerts gestützt werden soll. Was fehlt?",
+      "options": {
+        "A": "Ein explizites Validitätsargument für die intendierte Interpretation und Nutzung",
+        "B": "Nur eine höhere Anzahl Dezimalstellen",
+        "C": "Ein Verzicht auf Reliabilität",
+        "D": "Eine zufällige Itemreihenfolge"
+      },
+      "correct_key": "A",
+      "rationale": "Validität bezieht sich auf begründete Interpretationen und Verwendungen; Evidenz braucht ein klares Argument.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_032",
+      "dimension": "Testplanung_und_Testentwicklung",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 3,
+        "topic": "Blueprint"
+      },
+      "b_value": 4.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Wozu dient ein Test-Blueprint in der Testentwicklung?",
+      "options": {
+        "A": "Zur systematischen Sicherung der Inhaltsabdeckung über Facetten und Anforderungsniveaus",
+        "B": "Zur automatischen Maximierung von Alpha ohne Inhaltsprüfung",
+        "C": "Zur Ersetzung empirischer Pilotierung",
+        "D": "Zur Vermeidung aller Instruktionen"
+      },
+      "correct_key": "A",
+      "rationale": "Ein Blueprint verknüpft Konstruktfacetten, Aufgabenformate und Schwierigkeit gezielt mit der Itembank.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_033",
+      "dimension": "Itemanalyse",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 4,
+        "topic": "Itemselektion"
+      },
+      "b_value": 4.1,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Warum kann Itemselektion nur nach maximaler Trennschärfe problematisch sein?",
+      "options": {
+        "A": "Sie kann wichtige, aber weniger homogene Inhaltsfacetten entfernen.",
+        "B": "Sie senkt immer die Reliabilität auf null.",
+        "C": "Sie verhindert jede Auswertung.",
+        "D": "Sie macht Tests unökonomisch per Definition."
+      },
+      "correct_key": "A",
+      "rationale": "Statistische Optimierung ohne Inhaltskontrolle kann Konstruktunterrepräsentation erzeugen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_034",
+      "dimension": "Reliabilitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 6,
+        "topic": "Reliabilität bei Veränderungsmessung"
+      },
+      "b_value": 4.2,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Test soll Therapieeffekte über Zeit erfassen. Welche Reliabilitätsfrage ist besonders relevant?",
+      "options": {
+        "A": "Ob Differenz- oder Veränderungswerte ausreichend zuverlässig sind",
+        "B": "Ob alle Items denselben Anfangsbuchstaben haben",
+        "C": "Ob Normwerte nie aktualisiert werden",
+        "D": "Ob Alpha allein Validität beweist"
+      },
+      "correct_key": "A",
+      "rationale": "Bei Veränderungsmessung ist die Zuverlässigkeit von Change Scores bzw. Veränderungsindikatoren zentral.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_035",
+      "dimension": "Testwertinterpretation_und_Normierung",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 8,
+        "topic": "Cut-off"
+      },
+      "b_value": 4.3,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Cut-off wird allein so gewählt, dass genau 20 Prozent durchfallen. Was ist die stärkste Kritik?",
+      "options": {
+        "A": "Die Schwelle ist normativ/statistisch gesetzt, aber nicht notwendig kriteriumsvalidiert.",
+        "B": "Das beweist perfekte Fairness.",
+        "C": "Die Reliabilität wird dadurch automatisch 1.00.",
+        "D": "Itemschwierigkeit verliert jede Bedeutung."
+      },
+      "correct_key": "A",
+      "rationale": "Cut-offs sollten durch Entscheidungsziel, Konsequenzen und Validitätsevidenz begründet werden.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_036",
+      "dimension": "IRT_und_Modellannahmen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 10,
+        "topic": "Itemfit"
+      },
+      "b_value": 4.4,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Einige Items zeigen Misfit, decken aber eine wichtige Inhaltsfacette ab. Was ist die beste Vorgehensweise?",
+      "options": {
+        "A": "Nicht automatisch löschen, sondern Modellfit, Inhaltsvalidität und Zweck gemeinsam abwägen.",
+        "B": "Immer sofort löschen, unabhängig vom Konstrukt.",
+        "C": "Misfit beweist perfekte Validität.",
+        "D": "Nur die Normtabelle ändern."
+      },
+      "correct_key": "A",
+      "rationale": "Itementscheidungen sollten psychometrische Kennwerte und Inhaltsrepräsentation integrieren.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_037",
+      "dimension": "Adaptives_Testen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 11,
+        "topic": "Content Balancing"
+      },
+      "b_value": 4.5,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein CAT wählt nur die statistisch informativsten Items und vernachlässigt dadurch ganze Inhaltsfacetten. Was fehlt?",
+      "options": {
+        "A": "Content Balancing bzw. Blueprint-Kontrolle in der Itemauswahl",
+        "B": "Eine höhere Schriftgröße",
+        "C": "Ein Verbot adaptiver Tests",
+        "D": "Eine reine Retest-Korrelation"
+      },
+      "correct_key": "A",
+      "rationale": "Adaptive Tests müssen neben Information auch Inhaltsabdeckung und Testzweck sichern.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_038",
+      "dimension": "Validitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 7,
+        "topic": "Construct-Irrelevant Variance"
+      },
+      "b_value": 4.6,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Test zur Testtheorie nutzt extrem komplexe juristische Falltexte. Hohe Werte hängen stark mit juristischem Vorwissen zusammen. Was ist gefährdet?",
+      "options": {
+        "A": "Die Konstruktvalidität durch construct-irrelevante Varianz",
+        "B": "Nur die Druckqualität",
+        "C": "Die Existenz eines Rohwerts",
+        "D": "Die Möglichkeit von Antwortoptionen"
+      },
+      "correct_key": "A",
+      "rationale": "Wenn testfremdes Vorwissen systematisch Leistung bestimmt, wird die intendierte Interpretation kontaminiert.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_039",
+      "dimension": "Teststandards_und_Fairness",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 9,
+        "topic": "Barrierefreiheit"
+      },
+      "b_value": 4.7,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "application",
+      "item_type": "single_best_answer",
+      "stem": "Eine Testperson mit Sehbeeinträchtigung erhält keine angemessene Anpassung, obwohl das Zielkonstrukt nicht Sehfähigkeit ist. Was ist betroffen?",
+      "options": {
+        "A": "Fairness und Zumutbarkeit der Testanwendung",
+        "B": "Nur Itemschwierigkeit im Rasch-Modell",
+        "C": "Kriteriumsvalidität per Definition",
+        "D": "Alpha-Inflation"
+      },
+      "correct_key": "A",
+      "rationale": "Barrieren können construct-irrelevante Nachteile erzeugen und Fairness/Zumutbarkeit verletzen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_040",
+      "dimension": "Integrative_psychometrische_Urteilskompetenz",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": "2-11",
+        "topic": "Reliabilität und Validität integrieren"
+      },
+      "b_value": 4.8,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Test ist sehr reliabel, aber sagt das relevante Außenkriterium kaum vorher und deckt nur einen engen Inhaltsbereich ab. Welche Schlussfolgerung ist am besten?",
+      "options": {
+        "A": "Die Messung kann präzise, aber für die intendierte Interpretation unzureichend valide sein.",
+        "B": "Hohe Reliabilität reicht immer aus.",
+        "C": "Niedrige Kriteriumskorrelation erhöht Inhaltsvalidität.",
+        "D": "Der Test braucht keine Überarbeitung."
+      },
+      "correct_key": "A",
+      "rationale": "Präzision der Messung garantiert nicht die Angemessenheit der Interpretation oder Nützlichkeit für den Zweck.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_041",
+      "dimension": "IRT_und_Modellannahmen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 10,
+        "topic": "Multidimensionalität"
+      },
+      "b_value": 4.9,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein eindimensionales IRT-Modell wird auf Items angewandt, die klar zwei unterschiedliche Kompetenzbereiche erfassen. Was ist die Hauptgefahr?",
+      "options": {
+        "A": "Der θ-Wert vermischt mehrere latente Dimensionen und wird schwer interpretierbar.",
+        "B": "Die Testdauer wird automatisch null.",
+        "C": "Alle Items werden dadurch objektiver.",
+        "D": "Normierung ist grundsätzlich verboten."
+      },
+      "correct_key": "A",
+      "rationale": "Bei Multidimensionalität kann ein einziger θ-Wert unterschiedliche Fähigkeiten konfundieren.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_042",
+      "dimension": "Adaptives_Testen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 11,
+        "topic": "Online-Itemgenerierung"
+      },
+      "b_value": 5.0,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein CAT generiert Items live und verwendet sie sofort für offizielle θ-Schätzungen. Was muss mindestens transparent gemacht werden?",
+      "options": {
+        "A": "Dass die b-Werte nicht empirisch kalibriert sind und die θ-Interpretation experimentell ist.",
+        "B": "Dass Validität dadurch automatisch steigt.",
+        "C": "Dass kein Scoring mehr nötig ist.",
+        "D": "Dass alle Items dieselbe Schwierigkeit haben."
+      },
+      "correct_key": "A",
+      "rationale": "Live generierte Items ohne Kalibrierung sollten nicht wie reguläre IRT-Items interpretiert werden.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_043",
+      "dimension": "Validitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 7,
+        "topic": "Consequential Validity"
+      },
+      "b_value": 5.1,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Test wird für Förderentscheidungen genutzt, obwohl falsch-negative Entscheidungen gravierende Folgen haben. Welche Validitätsfrage wird besonders wichtig?",
+      "options": {
+        "A": "Ob Entscheidungsfolgen, Sensitivität/Spezifität und Cut-off-Begründung angemessen berücksichtigt sind.",
+        "B": "Ob alle Items alphabetisch sortiert sind.",
+        "C": "Ob Alpha größer als 1 ist.",
+        "D": "Ob Normwerte unsichtbar bleiben."
+      },
+      "correct_key": "A",
+      "rationale": "Bei Entscheidungen mit Konsequenzen muss die Validität der Klassifikation samt Folgen betrachtet werden.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_044",
+      "dimension": "Dimensionalitaet_und_Faktorenanalyse",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 13,
+        "topic": "Bifaktor/Testlet"
+      },
+      "b_value": 5.2,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Fallvignettenitems zeigen gemeinsame Residualvarianz über das Zielkonstrukt hinaus. Welche Modellierungsoption ist plausibel?",
+      "options": {
+        "A": "Testlet- oder Bifaktor-Modell zur Abbildung eines Formatfaktors",
+        "B": "Ausschließlich Prozentrangtransformation",
+        "C": "Verzicht auf jede Modellprüfung",
+        "D": "Retest nach fünf Minuten als einzige Lösung"
+      },
+      "correct_key": "A",
+      "rationale": "Testlet-/Bifaktormodelle können gemeinsame Format- oder Stimulusvarianz explizit modellieren.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_045",
+      "dimension": "Testplanung_und_Testentwicklung",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 3,
+        "topic": "Generalisierbarkeit"
+      },
+      "b_value": 5.3,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Eine Itembank besteht aus vielen Varianten desselben Aufgabentyps. Was ist die stärkste Inhaltskritik?",
+      "options": {
+        "A": "Die Generalisierbarkeit auf das breitere Kompetenzkonstrukt ist fraglich.",
+        "B": "Die Antwortoptionen sind automatisch fair.",
+        "C": "Der Test ist zu multidimensional per Definition.",
+        "D": "Der Standardmessfehler wird immer null."
+      },
+      "correct_key": "A",
+      "rationale": "Viele Varianten desselben Formats können hohe Präzision für einen engen Ausschnitt liefern, aber das Konstrukt unterrepräsentieren.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_046",
+      "dimension": "Teststandards_und_Fairness",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 9,
+        "topic": "Fairness und Validität"
+      },
+      "b_value": 5.4,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Item zeigt DIF zugunsten einer Gruppe, ist aber hoch prädiktiv für ein externes Kriterium. Was ist die beste Reaktion?",
+      "options": {
+        "A": "DIF, Relevanz des Iteminhalts, Kriteriumsbezug und Entscheidungsfolgen gemeinsam prüfen.",
+        "B": "Item automatisch behalten, weil prädiktiv.",
+        "C": "Item automatisch löschen, weil DIF immer unfair ist.",
+        "D": "Nur Alpha erhöhen."
+      },
+      "correct_key": "A",
+      "rationale": "DIF-Befunde brauchen eine differenzierte Bewertung im Validitäts- und Fairnesskontext.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_047",
+      "dimension": "Integrative_psychometrische_Urteilskompetenz",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": "2-11",
+        "topic": "Konstruktunterrepräsentation"
+      },
+      "b_value": 5.5,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Test zur Testentwicklungskompetenz misst fast nur Formelwissen. Offene Entwicklungsaufgaben zeigen schwache Leistungen. Welche Deutung ist am stärksten?",
+      "options": {
+        "A": "Der Test unterrepräsentiert wahrscheinlich zentrale performanznahe Aspekte des Konstrukts.",
+        "B": "Formelwissen beweist automatisch vollständige Kompetenz.",
+        "C": "Offene Aufgaben sind grundsätzlich wertlos.",
+        "D": "Die Normierung beseitigt das Problem."
+      },
+      "correct_key": "A",
+      "rationale": "Konstruktunterrepräsentation liegt nahe, wenn wichtige Handlungskompetenzen fehlen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_048",
+      "dimension": "Adaptives_Testen",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 11,
+        "topic": "Gate-Regel"
+      },
+      "b_value": 5.6,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein Expert:innenmodul startet, sobald θ knapp über der Schwelle liegt, unabhängig vom SE. Was ist die Kritik?",
+      "options": {
+        "A": "Die Unsicherheit der Schätzung wird ignoriert; eine probabilistische Gate-Regel wäre plausibler.",
+        "B": "Der Test wird dadurch automatisch valider.",
+        "C": "SE darf bei CAT nie berechnet werden.",
+        "D": "Phase 2 muss immer vor Phase 1 liegen."
+      },
+      "correct_key": "A",
+      "rationale": "Übergänge sollten die Präzision bzw. Wahrscheinlichkeit oberhalb der Schwelle berücksichtigen.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_049",
+      "dimension": "Validitaet",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": 7,
+        "topic": "Argumentbasierte Validierung"
+      },
+      "b_value": 5.7,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Welche Aussage entspricht am ehesten moderner argumentbasierter Validierung?",
+      "options": {
+        "A": "Validierung prüft eine Kette von Schlussfolgerungen von Beobachtungen zu Entscheidungen.",
+        "B": "Validität ist ein fester Testbesitz unabhängig von Nutzung.",
+        "C": "Ein hoher Alpha-Wert ist gleichbedeutend mit Validität.",
+        "D": "Validierung endet mit der ersten Pilotstudie."
+      },
+      "correct_key": "A",
+      "rationale": "Validität bezieht sich auf die Stützung intendierter Interpretationen und Nutzungen durch Evidenz und Theorie.",
+      "calibration_status": "expert_estimated"
+    },
+    {
+      "item_id": "P1_EXT_050",
+      "dimension": "Integrative_psychometrische_Urteilskompetenz",
+      "source_anchor": {
+        "book": "Moosbrugger & Kelava",
+        "chapter": "2-13",
+        "topic": "Modellfit und Inhaltsvalidität"
+      },
+      "b_value": 5.8,
+      "b_basis": "expert_estimate",
+      "b_confidence": "medium",
+      "cognitive_process": "critique",
+      "item_type": "single_best_answer",
+      "stem": "Ein eindimensionales Modell passt gut, weil alle Items sehr ähnlich sind. Gleichzeitig fehlen wichtige Facetten. Welche Aussage ist am besten?",
+      "options": {
+        "A": "Guter Modellfit kann mit Konstruktverengung einhergehen und ersetzt keine Inhaltsvalidität.",
+        "B": "Guter Modellfit beweist immer vollständige Inhaltsabdeckung.",
+        "C": "Ähnliche Items senken immer Reliabilität.",
+        "D": "Facetten sind für Testentwicklung irrelevant."
+      },
+      "correct_key": "A",
+      "rationale": "Homogene Items können Modellfit und Reliabilität erhöhen, aber das Zielkonstrukt verengen.",
+      "calibration_status": "expert_estimated"
+    }
+  ]
+}
