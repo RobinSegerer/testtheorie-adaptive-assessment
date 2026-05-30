@@ -56,6 +56,17 @@ def validate_generated_item(item: Dict[str, Any]) -> Tuple[bool, List[str]]:
     if item.get("item_type") not in {"multiple_choice", "single_best_answer", "interpretation_item"}:
         errors.append("item_type_invalid")
 
+    # Guard against a common LLM artifact: the correct option is uniquely the
+    # longest and most elaborated. This is especially problematic in routing.
+    if isinstance(options, dict) and item.get("correct_key") in {"A", "B", "C", "D"}:
+        lens = {k: len(str(v).strip()) for k, v in options.items()}
+        ck = item.get("correct_key")
+        correct_len = lens.get(ck, 0)
+        other_lens = [v for k, v in lens.items() if k != ck]
+        if other_lens and correct_len == max(lens.values()):
+            if correct_len - max(other_lens) > 28 or correct_len > 1.45 * max(1, sum(other_lens) / len(other_lens)):
+                errors.append("correct_option_length_cue")
+
     try:
         b = float(item.get("b_value"))
         if not -6 <= b <= 8:

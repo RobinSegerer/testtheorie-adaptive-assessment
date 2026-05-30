@@ -22,6 +22,10 @@ MANDATORY LANGUAGE RULES:
 7. The estimated b_value is a heuristic target difficulty, not empirical calibration.
 8. For high b-values, difficulty should come from conceptual integration, not from linguistic obscurity.
 
+9. Antwortoptionen müssen ungefähr gleich lang und ähnlich elaboriert sein.
+10. Die korrekte Antwort darf nicht systematisch die längste, spezifischste oder akademisch elaborierteste Option sein.
+11. Alle Distraktoren sollen fachlich plausibel, aber eindeutig weniger zutreffend sein; vermeide offensichtliche Kurz-Distraktoren.
+
 TARGET:
 The user prompt will specify target_b, target_dimension, and optional already_administered_topics.
 

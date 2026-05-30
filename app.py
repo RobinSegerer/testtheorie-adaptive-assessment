@@ -238,12 +238,57 @@ def get_next_phase1_item() -> Optional[Dict[str, Any]]:
     return select_next_item(load_items(), st.session_state.administered_ids, st.session_state.theta)
 
 
-def balance_option_order(item: Dict[str, Any], item_index: int) -> Dict[str, Any]:
-    """Return a copy of the item with the correct option rotated across A-D.
+def _soft_length_balanced_options(options: Dict[str, str], item_id: str, item_index: int) -> Dict[str, str]:
+    """Reduce visual length cues in answer options without changing scoring.
 
-    This prevents answer-position artifacts in Phase 1 while preserving the
-    item text, options, rationale and scoring logic. The order is fixed once
-    the item is loaded into session_state.
+    Some fixed routing items had a subtle artifact: the correct option was often
+    the longest and most elaborated. This function keeps the substantive option
+    text, but adds short neutral context qualifiers to shorter alternatives when
+    the option-length spread is large. The qualifiers are intentionally generic
+    and are applied independently of correctness.
+    """
+    if len(options) != 4:
+        return options
+    lengths = {k: len(str(v).strip()) for k, v in options.items()}
+    max_len = max(lengths.values())
+    min_len = min(lengths.values())
+    if max_len - min_len < 28:
+        return options
+
+    qualifiers = [
+        "bezogen auf den beschriebenen Fall",
+        "im hier dargestellten Testkontext",
+        "für die intendierte Testwertinterpretation",
+        "als primäre psychometrische Einordnung",
+        "im Rahmen der beschriebenen Fragestellung",
+        "für die vorliegende Anwendungssituation",
+    ]
+
+    rng = random.Random(f"{item_id}-{item_index}-length-balance")
+    shuffled = qualifiers[:]
+    rng.shuffle(shuffled)
+
+    # Target a moderate length below the longest option so that no single option
+    # is visually marked as the obviously most elaborate answer.
+    target = max(45, min(max_len, int((max_len + min_len) / 2) + 22))
+    balanced: Dict[str, str] = {}
+    for i, key in enumerate(["A", "B", "C", "D"]):
+        txt = str(options[key]).strip()
+        if len(txt) < target - 12:
+            q = shuffled[i % len(shuffled)]
+            # Parenthetical context keeps the original propositional content intact.
+            txt = f"{txt} ({q})"
+        balanced[key] = txt
+    return balanced
+
+
+def balance_option_order(item: Dict[str, Any], item_index: int) -> Dict[str, Any]:
+    """Return a copy of the item with answer position and visual length cues reduced.
+
+    Correct answer positions are rotated across A-D. In addition, visibly short
+    options are softly length-balanced when the option set contains large length
+    differences. This prevents the routing phase from rewarding the heuristic
+    "choose the longest/elaborated option".
     """
     if item.get("option_order_balanced"):
         return item
@@ -268,10 +313,13 @@ def balance_option_order(item: Dict[str, Any], item_index: int) -> Dict[str, Any
         else:
             new_options[key] = next(distractor_iter)
 
+    new_options = _soft_length_balanced_options(new_options, item.get("item_id", "item"), item_index)
+
     item["options"] = new_options
     item["correct_key"] = target_correct_key
     item["original_correct_key"] = old_correct_key
     item["option_order_balanced"] = True
+    item["option_length_balanced"] = True
     return item
 
 
